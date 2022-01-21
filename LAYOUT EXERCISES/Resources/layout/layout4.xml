@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="Log In"
+         android:background="@color/my_blue"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/button1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="Sign Up"
+         android:background="@color/my_brown"
+         android:id="@+id/button2"
+         android:layout_margin="5dp"
+         android:textColor="#FFFFFF"
+         android:textAllCaps="false"
+         android:layout_below="@+id/button1"
+         android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/my_red"
+        android:gravity="center"
+        android:text="Forgot Password ?"
+        android:background="#FFFF00"
+        android:id="@+id/button3"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button2"
+        android:layout_centerInParent="true"/>
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="Reset"
+        android:background="@color/my_gray"
+        android:id="@+id/button4"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button3"
+        android:layout_centerInParent="true"/>
+
+      <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Cancel"
+        android:background="@color/colorAccent"
+        android:id="@+id/button5"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"/>
+
+      <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Reset"
+        android:background="@color/colorAccent"
+        android:id="@+id/button6"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button4"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>
+

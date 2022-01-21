@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/relativeLayout1">
+        <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Title"
+         android:layout_margin="1dp"
+         android:textSize="20dp"
+         android:id="@+id/textView1"
+         android:textStyle="bold"
+         android:textColor="@color/my_red"/>
+         <TextView
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:text="Text Description"
+         android:layout_margin="1dp"
+         android:textSize="12dp"
+         android:id="@+id/textView2"
+         android:layout_below="@+id/textView1"
+         android:textStyle="bold"
+         android:textColor="@color/my_red"/>
+    </RelativeLayout>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="Log In"
+         android:background="@color/my_blue"
+        android:layout_below="@+id/relativeLayout1"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/button1"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="Sign Up"
+         android:background="@color/my_brown"
+         android:id="@+id/button2"
+         android:layout_margin="5dp"
+         android:textColor="#FFFFFF"
+         android:textAllCaps="false"
+         android:layout_below="@+id/button1"
+         android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
